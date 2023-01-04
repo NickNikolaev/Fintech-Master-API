@@ -1,0 +1,11 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.apiSchema = require('./apis/api.schema');
+module.exports.apiVersionSchema = require('./apis/version.api.schema');
+module.exports.apiEndpointSchema = require('./apis/endpoint.api.schema');
+module.exports.connectionSchema = require('./connection.schema');
+module.exports.credentialSchema = require('./credential.schema');
+module.exports.jobSchema = require('./job.schema');
+module.exports.locationSchema = require('./location.schema');
+module.exports.scheduleSchema = require('./schedule.schema');
+module.exports.taskSchema = require('./task.schema');
